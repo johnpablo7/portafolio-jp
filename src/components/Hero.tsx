@@ -1,5 +1,7 @@
 import myAvatar from "../../assets/my-avatar.svg";
 import { HiOutlineMail } from "react-icons/hi";
+import { IoEarthOutline } from "react-icons/io5";
+import { FaGithub } from "react-icons/fa";
 
 export const Hero = () => {
   return (
@@ -26,21 +28,21 @@ export const Hero = () => {
 
                 <div className="mx-7 hidden md:block">
                   <div className="flex my-3 text-gray-600 dark:text-blue-100">
-                    <HiOutlineMail className="mr-1 text-3xl" />
+                    <HiOutlineMail className="mr-2 text-3xl" />
                     <a href="john.davis.2015.03@gmail.com">
                       <p className="text-xl">john.davis.2015.03@gmail.com</p>
                     </a>
                   </div>
                   <div className="flex my-3 text-gray-600 dark:text-blue-100">
-                    <HiOutlineMail className="mr-1 text-3xl" />
+                    <IoEarthOutline className="mr-2 text-3xl" />
                     <a href="john.davis.2015.03@gmail.com">
-                      <p className="text-xl">john.davis.2015.03@gmail.com</p>
+                      <p className="text-xl">johnpablo7.com</p>
                     </a>
                   </div>
                   <div className="flex my-3 text-gray-600 dark:text-blue-100">
-                    <HiOutlineMail className="mr-1 text-3xl" />
-                    <a href="john.davis.2015.03@gmail.com">
-                      <p className="text-xl">john.davis.2015.03@gmail.com</p>
+                    <FaGithub className="mr-2 text-3xl" />
+                    <a href="https://github.com/johnpablo7">
+                      <p className="text-xl">johnpablo7</p>
                     </a>
                   </div>
                 </div>
