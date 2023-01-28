@@ -8,8 +8,8 @@ module.exports = {
         secondary: "#374151",
       },
       fontFamily: {
-        headerFont: ["Montserrat"],
-        bodyFont: ["Hind", "sans-serif"],
+        merriweather: ["Merriweather", "serif"],
+        worksans: ["Work Sans", "sans-serif"],
       },
     },
   },

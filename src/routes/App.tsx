@@ -3,7 +3,7 @@ import { Hero } from "../components/Hero";
 
 export const App = () => {
   return (
-    <div className="w-full bg-white min-h-screen px-6 pb-12">
+    <div className="w-full bg-white min-h-screen">
       <Header />
       <Hero />
     </div>

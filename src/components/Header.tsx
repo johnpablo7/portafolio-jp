@@ -2,28 +2,28 @@ import logoJP from "../../assets/logo-jp.png";
 
 export const Header = () => {
   return (
-    <header className="fixed right-0 top-0 flex items-center w-full bg-white h-[10vh] border-b border-gray-200 drop-shadow-md">
-      <div className="hidden w-1/6 md:flex items-center justify-center">
-        <img src={logoJP} alt="logo-white" />
+    <header className="sticky top-0 inset-x-0 flex items-center w-full bg-white border-b border-gray-200 drop-shadow-md">
+      <div className="w-1/6 flex items-center justify-center">
+        <img src={logoJP} alt="logo-white" className="w-20 h-20" />
       </div>
-      <nav className="flex-1 flex items-center justify-center gap-12 font-headerFont text-2xl font-bold">
+      <nav className="flex-1 flex items-center justify-center gap-12 font-merriweather text-sm md:text-2xl font-bold">
         <a href="#" className="">
-          INICIO
+          Inicio
         </a>
         <a href="#" className="hidden md:flex">
-          SOBRE MI
+          Sobre mí
         </a>
         <a href="#" className="hidden md:flex">
-          HABILIDADES
+          Habilidades
         </a>
         <a href="#" className="hidden md:flex">
-          CURRICULUM
+          Curriculum
         </a>
         <a href="#" className="">
-          PORTAFOLIO
+          Portafolio
         </a>
         <a href="#" className="">
-          CONTACTO
+          Contacto
         </a>
       </nav>
     </header>
