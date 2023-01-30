@@ -1,4 +1,4 @@
-import logoJP from "../../assets/logo-jp.png";
+import logoJP from "../../assets/images/logo-jp.png";
 
 export const Header = () => {
   return (
@@ -6,19 +6,14 @@ export const Header = () => {
       <div className="w-1/6 flex items-center justify-center">
         <img src={logoJP} alt="logo-white" className="w-20 h-20" />
       </div>
-      <nav className="flex-1 flex items-center justify-center gap-12 font-merriweather text-sm md:text-2xl font-bold">
+      <nav className="flex-1 flex items-center justify-center gap-12 font-merriweather text-sm md:text-base font-bold">
         <a href="#" className="">
           Inicio
         </a>
         <a href="#" className="hidden md:flex">
           Sobre mí
         </a>
-        <a href="#" className="hidden md:flex">
-          Habilidades
-        </a>
-        <a href="#" className="hidden md:flex">
-          Curriculum
-        </a>
+
         <a href="#" className="">
           Portafolio
         </a>
