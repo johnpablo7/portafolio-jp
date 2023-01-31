@@ -21,7 +21,6 @@ import postman from "../../assets/devicon/postman.svg";
 // import { HiOutlineMail } from "react-icons/hi";
 import { IoEarthOutline } from "react-icons/io5";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { Footer } from "./Footer";
 
 export const Home = () => {
   return (
@@ -86,10 +85,9 @@ export const Home = () => {
               diseñar proyectos, trabajar con React y Tailwindcss es algo que me
               apasiona mucho, mi objetivo es adquirir nuevas destrezas y
               conocimientos para formarme en el desarrollador Full Stack con la
-              pila (MERN). Busco mi primera oportunidad laboral para demostrar
-              mis habilidades ando lleno de energía, con mucho entusiasmo
-              enfocado en crear interfaces y crear experiencias geniales para
-              los clientes.
+              pila (MERN). Busco mi primera oportunidad para laborar y poder
+              demostrar mis habilidades con entusiasmo, enfocado en crear nuevas
+              interfaces y experiencias para los clientes.
             </p>
             <h1 className="font-merriweather md:text-2xl text-2xl font-bold leading-10 text-gray-700 dark:text-blue-200">
               Sobre mí
@@ -209,7 +207,6 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </section>
   );
 };

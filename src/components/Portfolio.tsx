@@ -1,11 +1,10 @@
-import { CiFolderOn } from "react-icons/ci";
 import { RxExternalLink } from "react-icons/rx";
-import { FaGithub } from "react-icons/fa";
+import { FaRegFolder, FaGithub } from "react-icons/fa";
 
 export const Portfolio = () => {
   return (
     <div className="max-w-3xl px-4 mx-auto sm:px-6 xl:max-w-6xl xl:px-0">
-      <div className="md:pt-10 pt-8 md:px-4 px-2 ">
+      <div className="md:pt-10 pt-8 md:px-4 px-4 ">
         <h1 className="md:text-5xl text-4xl font-extrabold mb-2">Portafolio</h1>
         <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
           Algunos de los proyectos que he construido.
@@ -19,7 +18,7 @@ export const Portfolio = () => {
                 <div className="p-6">
                   <div className="flex flex-row justify-between items-center">
                     <div className="my-2">
-                      <CiFolderOn className="text-4xl text-primary" />
+                      <FaRegFolder className="text-4xl text-primary" />
                     </div>
                     <div className="flex flex-row justify-between">
                       <div className="mx-2">
@@ -50,7 +49,7 @@ export const Portfolio = () => {
                 <div className="p-6">
                   <div className="flex flex-row justify-between items-center">
                     <div className="my-2">
-                      <CiFolderOn className="text-4xl text-primary" />
+                      <FaRegFolder className="text-4xl text-primary" />
                     </div>
                     <div className="flex flex-row justify-between">
                       <div className="mx-2">
@@ -81,7 +80,7 @@ export const Portfolio = () => {
                 <div className="p-6">
                   <div className="flex flex-row justify-between items-center">
                     <div className="my-2">
-                      <CiFolderOn className="text-4xl text-primary" />
+                      <FaRegFolder className="text-4xl text-primary" />
                     </div>
                     <div className="flex flex-row justify-between">
                       <div className="mx-2">
@@ -112,7 +111,7 @@ export const Portfolio = () => {
                 <div className="p-6">
                   <div className="flex flex-row justify-between items-center">
                     <div className="my-2">
-                      <CiFolderOn className="text-4xl text-primary" />
+                      <FaRegFolder className="text-4xl text-primary" />
                     </div>
                     <div className="flex flex-row justify-between">
                       <div className="mx-2">
