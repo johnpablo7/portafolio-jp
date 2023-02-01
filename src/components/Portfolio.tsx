@@ -1,6 +1,5 @@
 import { RxExternalLink } from "react-icons/rx";
 import { FaRegFolder, FaGithub } from "react-icons/fa";
-// import clsx from "clsx";
 import { cards } from "../data/cards";
 
 export const Portfolio = () => {
