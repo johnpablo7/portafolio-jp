@@ -7,7 +7,7 @@ import { svgbackend } from "../data/svgbackend";
 
 export const Home = () => {
   return (
-    <section className="md:py-12 md:px-4 py-6 bg-stone-50 dark:bg-gray-900 dark:text-white">
+    <section className="flex-1 md:py-12 md:px-4 py-6 bg-stone-50 dark:bg-gray-900 dark:text-white">
       <div className="mx-auto max-w-6xl">
         <div className="md:flex font-worksans">
           <div className="md:w-1/3 p-2 md:flex md:justify-center">
@@ -93,7 +93,7 @@ export const Home = () => {
                 <ul className="flex items-center flex-wrap gap-2">
                   {svgfrontend.map((link) => (
                     <li key={link.id} className="group relative duration-30">
-                      <span className="absolute hidden group-hover:flex -left-0 -bottom-14 -translate-y-full px-2 py-1 bg-white rounded-lg text-center text-gray-700 dark:text-white dark:bg-gray-900 text-sm font-bold transition-colors">
+                      <span className="absolute hidden group-hover:flex -left-0 -bottom-14 -translate-y-full px-2 py-1 bg-stone-50 rounded-lg text-center text-gray-700 dark:text-white dark:bg-gray-900 text-sm font-bold transition-colors">
                         {link.name}
                       </span>
                       <img src={link.url} alt={link.name} />
@@ -108,7 +108,7 @@ export const Home = () => {
                 <ul className="flex flex-wrap gap-2 items-center">
                   {svgbackend.map((link) => (
                     <li key={link.id} className="group relative duration-30">
-                      <span className="absolute hidden group-hover:flex -left-0 -bottom-14 -translate-y-full px-2 py-1 bg-white rounded-lg text-center text-gray-700 dark:text-white dark:bg-gray-900 text-sm font-bold transition-colors">
+                      <span className="absolute hidden group-hover:flex -left-0 -bottom-14 -translate-y-full px-2 py-1 bg-stone-50 rounded-lg text-center text-gray-700 dark:text-white dark:bg-gray-900 text-sm font-bold transition-colors">
                         {link.name}
                       </span>
                       <img src={link.url} alt={link.name} />

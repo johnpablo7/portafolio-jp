@@ -22,7 +22,7 @@ export const Contact = () => {
   // };
 
   return (
-    <div className="flex w-full md:py-20 justify-center items-center bg-stone-50 dark:bg-gray-900">
+    <div className="flex flex-1 w-full py-16 justify-center items-center bg-stone-50 dark:bg-gray-900">
       <div className="flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-cyan-700 w-full max-w-6xl p-8 sm:p-12 md:rounded-xl shadow-lg text-white overflow-hidden gap-x-48 dark:bg-gray-800">
         <div className="flex flex-col space-y-8 justify-between">
           <div>

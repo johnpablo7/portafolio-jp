@@ -4,7 +4,7 @@ import { Footer } from "../components/Footer";
 
 export const AuthLayout = () => {
   return (
-    <div className="w-full bg-white min-h-screen">
+    <div className="w-full bg-white min-h-screen flex flex-col">
       <Navbar />
       <Outlet />
       <Footer />

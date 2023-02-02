@@ -4,7 +4,7 @@ import { cards } from "../data/cards";
 
 export const Portfolio = () => {
   return (
-    <section className="dark:bg-gray-900 dark:text-white bg-stone-50">
+    <section className="flex-1 dark:bg-gray-900 dark:text-white bg-stone-50">
       <div className="px-4 mx-auto sm:px-6 xl:max-w-6xl xl:px-0">
         <div className="md:pt-10 pt-8 md:px-4 px-4 ">
           <h1 className="md:text-5xl text-4xl font-extrabold mb-2 dark:text-blue-200">
