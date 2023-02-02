@@ -7,7 +7,7 @@ import { svgbackend } from "../data/svgbackend";
 
 export const Home = () => {
   return (
-    <section className="md:py-12 md:px-4 py-6">
+    <section className="md:py-12 md:px-4 py-6 dark:bg-gray-800 dark:text-white">
       <div className="mx-auto max-w-6xl">
         <div className="md:flex font-worksans">
           <div className="md:w-1/3 p-2 md:flex md:justify-center">
