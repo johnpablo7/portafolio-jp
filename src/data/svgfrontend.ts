@@ -30,22 +30,22 @@ export const svgfrontend = [
     url: "../../assets/devicon/vite.svg",
   },
   {
-    id: 8,
+    id: 7,
     name: "Git",
     url: "../../assets/devicon/git.svg",
   },
   {
-    id: 10,
+    id: 8,
     name: "Tailwindcss",
     url: "../../assets/devicon/tailwindcss.svg",
   },
   {
-    id: 11,
+    id: 9,
     name: "Bootstrap",
     url: "../../assets/devicon/bootstrap.svg",
   },
   {
-    id: 12,
+    id: 10,
     name: "Sass",
     url: "../../assets/devicon/sass.svg",
   },

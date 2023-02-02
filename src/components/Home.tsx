@@ -7,7 +7,7 @@ import { svgbackend } from "../data/svgbackend";
 
 export const Home = () => {
   return (
-    <section className="md:py-12 md:px-4 py-6 dark:bg-gray-900 dark:text-white">
+    <section className="md:py-12 md:px-4 py-6 bg-stone-50 dark:bg-gray-900 dark:text-white">
       <div className="mx-auto max-w-6xl">
         <div className="md:flex font-worksans">
           <div className="md:w-1/3 p-2 md:flex md:justify-center">
@@ -59,7 +59,7 @@ export const Home = () => {
           </div>
           <div className="md:w-2/3 px-8">
             <h1 className="font-merriweather md:text-2xl text-2xl font-bold leading-10 md:mt-4 mt-6 text-gray-700 dark:text-blue-200">
-              👋 Hola , Buen Día !
+              <span className="text-3xl mr-1">👋</span> Hola , Buen Día !
             </h1>
             <p className="md:text-lg text-base mt-2 mb-6 md:leading-8 text-justify">
               Soy una desarrolador FrontEnd que le gusta investigar, crear y
