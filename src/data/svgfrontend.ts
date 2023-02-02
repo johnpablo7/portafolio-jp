@@ -30,19 +30,9 @@ export const svgfrontend = [
     url: "../../assets/devicon/vite.svg",
   },
   {
-    id: 7,
-    name: "Nextjs",
-    url: "../../assets/devicon/nextjs.svg",
-  },
-  {
     id: 8,
     name: "Git",
     url: "../../assets/devicon/git.svg",
-  },
-  {
-    id: 9,
-    name: "Github",
-    url: "../../assets/devicon/github.svg",
   },
   {
     id: 10,

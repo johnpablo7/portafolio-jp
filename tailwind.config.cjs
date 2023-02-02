@@ -5,8 +5,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#1976d2",
-        secondary: "#0e7490",
+        primary: "#1976d2", // azul
       },
       fontFamily: {
         merriweather: ["Merriweather", "serif"],

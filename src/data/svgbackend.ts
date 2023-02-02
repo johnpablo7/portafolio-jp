@@ -20,11 +20,6 @@ export const svgbackend = [
     url: "../../assets/devicon/postgresql.svg",
   },
   {
-    id: 5,
-    name: "Express",
-    url: "../../assets/devicon/express.svg",
-  },
-  {
     id: 6,
     name: "Docker",
     url: "../../assets/devicon/docker.svg",

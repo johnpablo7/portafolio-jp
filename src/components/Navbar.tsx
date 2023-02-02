@@ -32,7 +32,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <header className="sticky top-0 inset-x-0 flex items-center justify-between px-8 md:px-16 w-full bg-white border-b border-gray-200 drop-shadow-md z-20 dark:bg-gray-800 dark:text-white">
+      <header className="sticky top-0 inset-x-0 flex items-center justify-between px-8 md:px-16 w-full bg-white border-b border-gray-200 drop-shadow-md z-20 dark:bg-gray-900 dark:text-white">
         <div className="md:flex items-center justify-center hidden">
           <Link to="/">
             <svg
