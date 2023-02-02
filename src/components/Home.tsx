@@ -108,7 +108,7 @@ export const Home = () => {
                 <ul className="flex flex-wrap gap-2 items-center">
                   {svgbackend.map((link) => (
                     <li key={link.id} className="group relative duration-30">
-                      <span className="absolute hidden group-hover:flex -left-0 -bottom-14 -translate-y-full px-2 py-1 bg-white rounded-lg text-center text-gray-700 dark:text-bluetext-200 text-sm font-bold transition-colors">
+                      <span className="absolute hidden group-hover:flex -left-0 -bottom-14 -translate-y-full px-2 py-1 bg-white rounded-lg text-center text-gray-700 dark:text-white dark:bg-gray-900 text-sm font-bold transition-colors">
                         {link.name}
                       </span>
                       <img src={link.url} alt={link.name} />
