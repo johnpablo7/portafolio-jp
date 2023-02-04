@@ -2,24 +2,28 @@ import { MdLocationPin, MdEmail } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FaTwitterSquare, FaLinkedin, FaGithub } from "react-icons/fa";
 import { BsFacebook } from "react-icons/bs";
-// import { BsWhatsapp } from "react-icons/bs";
-// import { useRef } from "react";
-// import emailjs from "emailprimary
+import { useRef, FormEvent } from "react";
+import emailjs from "@emailjs/browser";
 
 export const Contact = () => {
-  // const form = useRef();
+  const form = useRef<HTMLFormElement>(null);
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
-
-  //   emailjs.sendForm(
-  //     "service_q9138ym",
-  //     "template_243hxaw",
-  //     form.current,
-  //     "PLS1gaSu1LSbcHICa"
-  //   );
-  //   e.target.reset();
-  // };
+  const sendEmail = (e: FormEvent<HTMLFormElement>) => {
+    // console.log(
+    //   import.meta.env.VITE_SERVICE_ID,
+    //   import.meta.env.VITE_TEMPLATE_ID,
+    //   form.current!,
+    //   import.meta.env.VITE_PUBLIC_KEY
+    // );
+    e.preventDefault();
+    emailjs.sendForm(
+      import.meta.env.VITE_SERVICE_ID,
+      import.meta.env.VITE_TEMPLATE_ID,
+      form.current!,
+      import.meta.env.VITE_PUBLIC_KEY
+    );
+    form.current!.reset();
+  };
 
   return (
     <div className="flex flex-1 w-full md:py-16 justify-center items-center bg-stone-50 dark:bg-gray-900">
@@ -55,19 +59,35 @@ export const Contact = () => {
           <div className="flex space-x-4 text-lg">
             <div>
               <FaLinkedin className="text-3xl cursor-pointer dark:text-primary" />
-              <a href="https://www.linkedin.com/in/john-davis-821ab7211/"></a>
+              <a
+                href="https://www.linkedin.com/in/johnpablo7"
+                target="_blank"
+                rel="noreferrer"
+              ></a>
             </div>
             <div>
               <FaTwitterSquare className="text-3xl cursor-pointer dark:text-primary" />
-              <a href="https://twitter.com/John_Pablo87"></a>
+              <a
+                href="https://twitter.com/John_Pablo87"
+                target="_blank"
+                rel="noreferrer"
+              ></a>
             </div>
             <div>
               <FaGithub className="text-3xl cursor-pointer dark:text-primary" />
-              <a href="https://github.com/johnpablo7"></a>
+              <a
+                href="https://github.com/johnpablo7"
+                target="_blank"
+                rel="noreferrer"
+              ></a>
             </div>
             <div>
               <BsFacebook className="text-3xl cursor-pointer dark:text-primary" />
-              <a href="https://www.facebook.com/profile.php?id=100009390640332"></a>
+              <a
+                href="https://www.facebook.com/profile.php?id=100009390640332"
+                target="_blank"
+                rel="noreferrer"
+              ></a>
             </div>
           </div>
         </div>
@@ -76,41 +96,48 @@ export const Contact = () => {
           <div className="absolute z-0 w-40 h-40 bg-gray-700 rounded-full -right-28 -top-28 dark:bg-primary"></div>
           <div className="absolute z-0 w-40 h-40 bg-gray-700 rounded-full -left-28 -bottom-16 dark:bg-primary"></div>
           <div className="relative z-10 bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-80 dark:bg-white">
-            <form action="" className="flex flex-col space-y-4">
+            <form
+              ref={form}
+              onSubmit={sendEmail}
+              className="flex flex-col space-y-4"
+            >
               <div>
-                <label htmlFor="" className="text-sm font-bold">
-                  Nombre
-                </label>
+                <label className="text-sm font-bold">Nombre</label>
                 <input
                   type="text"
+                  name="name"
                   placeholder="Ingrese su nombre"
+                  required
                   className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-blue-200"
                 />
               </div>
 
               <div>
-                <label htmlFor="" className="text-sm font-bold">
-                  Correo Electrónico
-                </label>
+                <label className="text-sm font-bold">Correo Electrónico</label>
                 <input
                   type="email"
+                  name="email"
+                  required
                   placeholder="Ingrese su correo electrónico"
                   className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-blue-200"
                 />
               </div>
 
               <div>
-                <label htmlFor="" className="text-sm font-bold">
-                  Mensaje
-                </label>
+                <label className="text-sm font-bold">Mensaje</label>
                 <textarea
+                  name="message"
                   placeholder="Ingrese su mensaje"
                   rows={4}
+                  required
                   className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-blue-200"
                 ></textarea>
               </div>
 
-              <button className="inline-block self-end bg-primary text-white font-bold px-6 py-2 uppercase text-sm rounded-lg dark:bg-primary">
+              <button
+                type="submit"
+                className="inline-block self-end bg-primary text-white font-bold px-6 py-2 uppercase text-sm rounded-lg dark:bg-primary"
+              >
                 Enviar
               </button>
             </form>
