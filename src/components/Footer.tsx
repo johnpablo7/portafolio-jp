@@ -28,7 +28,7 @@ export const Footer = () => {
             <a href="https://twitter.com/John_Pablo87"></a>
           </div>
         </div>
-        <div className="flex space-x-2 text-sm text-gray-500 font-bold">
+        <div className="flex space-x-2 text-xs md:text-sm text-gray-500 font-bold">
           <div>Copyright © 2023</div>
           <div>•</div>
           <div>John Pablo - Comencemos a codificar</div>

@@ -63,19 +63,18 @@ export const Home = () => {
               <span className="text-3xl mr-1">👋</span> Hola , Buen Día !
             </h1>
             <p className="md:text-lg text-base mt-2 mb-6 md:leading-8 text-justify">
-              Soy una desarrolador FrontEnd que le gusta investigar, crear y
-              diseñar proyectos, trabajar con React y Tailwindcss es algo que me
-              apasiona mucho, mi objetivo es adquirir nuevas destrezas y
-              conocimientos para formarme en el desarrollador Full Stack con la
-              pila (MERN). Busco mi primera oportunidad para laborar y poder
-              demostrar mis habilidades con entusiasmo, enfocado en crear nuevas
-              interfaces y experiencias para los clientes.
+              Soy un desarrolador Frontend innovador, proactivo y con capacidad
+              para desarrollar páginas y aplicaciones web, enfocado en la mejora
+              de interfaces y verificación de código, mi objetivo es adquirir
+              nuevas destrezas y conocimientos para formarme como desarrollador
+              Full Stack, estoy en busca de mi primera oportunidad para laborar
+              y demostrar mis habilidades.
             </p>
             <h1 className="font-merriweather md:text-2xl text-2xl font-bold leading-10 text-gray-700 dark:text-blue-200">
               Sobre mí
             </h1>
             <p className="md:text-lg mt-2 mb-4 md:leading-8 text-justify">
-              Mi viaje como Desarrollador FrontEnd comenzo desde el año 2021 y
+              Mi viaje como desarrollador FrontEnd comenzo desde el año 2021 y
               se produjo a través del autoaprendizaje, un día estuve navegando
               por internet y vi una plataforma en donde tenian un curso gratis
               de programación me dio curiosidad e ingrese y asi comencé con las

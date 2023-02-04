@@ -21,31 +21,41 @@ export const svgfrontend = [
   },
   {
     id: 5,
+    name: "Nextjs",
+    url: "../../assets/devicon/nextjs.svg",
+  },
+  {
+    id: 6,
     name: "Typescript",
     url: "../../assets/devicon/typescript.svg",
   },
   {
-    id: 6,
+    id: 7,
     name: "Vite",
     url: "../../assets/devicon/vite.svg",
   },
   {
-    id: 7,
+    id: 8,
     name: "Git",
     url: "../../assets/devicon/git.svg",
   },
   {
-    id: 8,
+    id: 9,
+    name: "Github",
+    url: "../../assets/devicon/github.svg",
+  },
+  {
+    id: 10,
     name: "Tailwindcss",
     url: "../../assets/devicon/tailwindcss.svg",
   },
   {
-    id: 9,
+    id: 11,
     name: "Bootstrap",
     url: "../../assets/devicon/bootstrap.svg",
   },
   {
-    id: 10,
+    id: 12,
     name: "Sass",
     url: "../../assets/devicon/sass.svg",
   },

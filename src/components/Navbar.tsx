@@ -22,7 +22,7 @@ export const Navbar = () => {
         </div>
 
         <nav>
-          <ul className="flex items-center justify-center md:gap-12 gap-6 py-5 font-sans text-xs md:text-xl font-bold text-gray-700 dark:text-white">
+          <ul className="flex items-center justify-center md:gap-12 gap-4 py-5 font-sans text-base md:text-xl font-bold text-gray-700 dark:text-white">
             <li>
               <NavLink
                 to="/"
@@ -37,7 +37,7 @@ export const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="/portfolio"
+                to="/portafolio"
                 className={({ isActive }) =>
                   isActive
                     ? "text-blue-400 transition duration-300"
@@ -45,6 +45,18 @@ export const Navbar = () => {
                 }
               >
                 PORTAFOLIO
+              </NavLink>
+            </li>
+            <li className="hidden md:block">
+              <NavLink
+                to="/curriculum"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-blue-400 transition duration-300"
+                    : "dark:text-white transition duration-300"
+                }
+              >
+                VER CV
               </NavLink>
             </li>
             <li>
@@ -59,18 +71,15 @@ export const Navbar = () => {
                 CONTACTO
               </NavLink>
             </li>
-            <button className="md:flex transition-colors hidden">
-              DESCARGAR CV
-            </button>
           </ul>
         </nav>
 
-        <div className="flex items-center justify-center cursor-pointer">
+        <div className="flex items-center justify-center cursor-pointer ml-4">
           <button
-            className="flex items-center w-8 h-5 md:w-16 md:h-8 rounded-2xl bg-white focus:outline-none shadow px-1"
+            className="flex items-center w-14 h-7 md:w-16 md:h-8 rounded-2xl bg-white focus:outline-none shadow px-1"
             onClick={toggleTheme}
           >
-            <div className="relative w-6 h-6 md:w-7 md:h-7 rounded-full transition duration-500 transform bg-yellow-500 dark:bg-gray-700  p-1 text-white dark:translate-x-7 ease-in-out">
+            <div className="flex items-center relative w-7 h-6 md:w-7 md:h-7 rounded-full transition duration-500 transform bg-yellow-500 dark:bg-gray-700 p-1 text-white md:dark:translate-x-7 dark:translate-x-5 ease-in-out">
               {theme === "light" ? (
                 <MdOutlineWbSunny className="text-xl" />
               ) : (
