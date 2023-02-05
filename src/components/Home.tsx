@@ -2,9 +2,8 @@ import myAvatar from "../../assets/my-avatar.svg";
 import { HiOutlineMail } from "react-icons/hi";
 import { IoEarthOutline } from "react-icons/io5";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-// import { svgfrontend } from "../data/svgfrontend";
-// import { svgbackend } from "../data/svgbackend";
-// import { getImageUrl } from "../utils/image";
+import { svgfrontend } from "../data/svgfrontend";
+import { svgbackend } from "../data/svgbackend";
 
 export const Home = () => {
   return (
@@ -86,7 +85,7 @@ export const Home = () => {
               <h1 className="font-merriweather md:text-2xl text-2xl font-bold leading-10 md:mb-4 text-gray-700 dark:text-blue-200">
                 Habilidades
               </h1>
-              {/* <div>
+              <div>
                 <h2 className="font-merriweather md:text-lg font-bold leading-10 text-gray-700 dark:text-blue-200">
                   Frontend
                 </h2>
@@ -96,7 +95,7 @@ export const Home = () => {
                       <span className="absolute hidden group-hover:flex -left-0 -bottom-14 -translate-y-full px-2 py-1 bg-stone-50 rounded-lg text-center text-gray-700 dark:text-white dark:bg-gray-900 text-sm font-bold transition-colors">
                         {link.name}
                       </span>
-                      <img src={getImageUrl(link.url)} alt={link.name} />
+                      <img src={link.url} alt={link.name} />
                     </li>
                   ))}
                 </ul>
@@ -111,11 +110,11 @@ export const Home = () => {
                       <span className="absolute hidden group-hover:flex -left-0 -bottom-14 -translate-y-full px-2 py-1 bg-stone-50 rounded-lg text-center text-gray-700 dark:text-white dark:bg-gray-900 text-sm font-bold transition-colors">
                         {link.name}
                       </span>
-                      <img src={getImageUrl(link.url)} alt={link.name} />
+                      <img src={link.url} alt={link.name} />
                     </li>
                   ))}
                 </ul>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
