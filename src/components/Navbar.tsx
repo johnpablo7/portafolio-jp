@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import { MdOutlineWbSunny } from "react-icons/md";
 import { HiOutlineMoon } from "react-icons/hi";
 import { useTheme } from "../hooks/theme";
+import { views } from "../data/views";
 
 export const Navbar = () => {
   const { theme, toggleTheme } = useTheme();
@@ -23,54 +24,20 @@ export const Navbar = () => {
 
         <nav>
           <ul className="flex items-center justify-center md:gap-12 gap-4 py-5 font-sans text-base md:text-xl font-bold text-gray-700 dark:text-white">
-            <li>
-              <NavLink
-                to="/"
-                className={({ isActive }) =>
-                  isActive
-                    ? "text-blue-400 transition duration-300"
-                    : "dark:text-white transition duration-300"
-                }
-              >
-                INICIO
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/portafolio"
-                className={({ isActive }) =>
-                  isActive
-                    ? "text-blue-400 transition duration-300"
-                    : "dark:text-white transition duration-300"
-                }
-              >
-                PORTAFOLIO
-              </NavLink>
-            </li>
-            <li className="hidden md:block">
-              <NavLink
-                to="/curriculum"
-                className={({ isActive }) =>
-                  isActive
-                    ? "text-blue-400 transition duration-300"
-                    : "dark:text-white transition duration-300"
-                }
-              >
-                VER CV
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/contacto"
-                className={({ isActive }) =>
-                  isActive
-                    ? "text-blue-400 transition duration-300"
-                    : "dark:text-white transition duration-300"
-                }
-              >
-                CONTACTO
-              </NavLink>
-            </li>
+            {views.map((list) => (
+              <li key={list.id}>
+                <NavLink
+                  to={list.path}
+                  className={({ isActive }) =>
+                    isActive
+                      ? "text-blue-400 transition duration-300"
+                      : "dark:text-white transition duration-300"
+                  }
+                >
+                  {list.link}
+                </NavLink>
+              </li>
+            ))}
           </ul>
         </nav>
 
