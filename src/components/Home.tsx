@@ -95,7 +95,11 @@ export const Home = () => {
                       <span className="absolute hidden group-hover:flex -left-0 -bottom-14 -translate-y-full px-2 py-1 bg-stone-50 rounded-lg text-center text-gray-700 dark:text-white dark:bg-gray-900 text-sm font-bold transition-colors">
                         {link.name}
                       </span>
-                      <img src={link.url} alt={link.name} />
+                      <img
+                        src={link.url}
+                        alt={link.name}
+                        className="w-12 h-12"
+                      />
                     </li>
                   ))}
                 </ul>
@@ -110,7 +114,11 @@ export const Home = () => {
                       <span className="absolute hidden group-hover:flex -left-0 -bottom-14 -translate-y-full px-2 py-1 bg-stone-50 rounded-lg text-center text-gray-700 dark:text-white dark:bg-gray-900 text-sm font-bold transition-colors">
                         {link.name}
                       </span>
-                      <img src={link.url} alt={link.name} />
+                      <img
+                        src={link.url}
+                        alt={link.name}
+                        className="w-12 h-12"
+                      />
                     </li>
                   ))}
                 </ul>
