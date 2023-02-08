@@ -1,8 +1,8 @@
 export const cards = [
   {
     id: 1,
-    img: "/images/portafolio-jp.png",
-    demo: "https://github.com/johnpablo7",
+    img: "/images/yard-sale.png",
+    demo: "https://yard-sale.johnpablo7.com",
     github: "https://github.com/johnpablo7/yard-sale-frontend",
     title: "Ecommers Yard Sale",
     paragraph:

@@ -23,8 +23,9 @@ export const Portfolio = () => {
                     <img
                       src={card.img}
                       alt="image"
-                      className="aspect-auto object-cover object-center md:h-96 md:w-full"
+                      className="aspect-auto object-center object-cover w-full md:w-full"
                     />
+
                     <div className="md:p-4 p-4 dark:bg-gray-800 bg-stone-100">
                       <div className="flex flex-row justify-between items-center">
                         <div className="my-2">

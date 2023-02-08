@@ -5,7 +5,7 @@ import { BsFacebook } from "react-icons/bs";
 export const Footer = () => {
   return (
     <footer className="bg-stone-200 mt-auto">
-      <div className="flex flex-col items-center py-6">
+      <div className="flex flex-col items-center py-4">
         <div className="flex mb-3 space-x-4">
           <div>
             <FaGithub className="text-3xl cursor-pointer" />

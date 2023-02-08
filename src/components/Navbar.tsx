@@ -31,7 +31,7 @@ export const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-blue-400 transition duration-300"
-                      : "dark:text-white transition duration-300"
+                      : "dark:text-white transition duration-300 hover:text-blue-400 dark:hover:text-blue-400"
                   }
                 >
                   {list.link}
