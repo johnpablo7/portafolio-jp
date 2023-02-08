@@ -1,7 +1,7 @@
 export const cards = [
   {
     id: 1,
-    img: "https://i.imgur.com/6NZgGdF.png",
+    img: "/images/portafolio-jp.png",
     demo: "https://github.com/johnpablo7",
     github: "https://github.com/johnpablo7/yard-sale-frontend",
     title: "Ecommers Yard Sale",
@@ -11,7 +11,7 @@ export const cards = [
   },
   {
     id: 2,
-    img: "https://i.imgur.com/6ctnKRi.png",
+    img: "/images/portafolio-jp.png",
     demo: "https://johnpablo7.com/",
     github: "https://github.com/johnpablo7/portafolio-jp",
     title: "Portafolio JP",
@@ -21,7 +21,7 @@ export const cards = [
   },
   {
     id: 3,
-    img: "https://i.imgur.com/6NZgGdF.png",
+    img: "/images/portafolio-jp.png",
     demo: "https://github.com/johnpablo7",
     github: "https://github.com/johnpablo7",
     title: "Tailwind Designer Portfolio",
@@ -31,7 +31,7 @@ export const cards = [
   },
   {
     id: 4,
-    img: "https://i.imgur.com/6NZgGdF.png",
+    img: "/images/portafolio-jp.png",
     demo: "https://github.com/johnpablo7",
     github: "https://github.com/johnpablo7",
     title: "Tailwind Designer Portfolio",
