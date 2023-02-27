@@ -33,12 +33,22 @@ export const Portfolio = () => {
                         </div>
                         <div className="flex flex-row justify-between">
                           <div className="mx-2">
-                            <RxExternalLink className="md:text-3xl text-2xl cursor-pointer hover:text-primary" />
-                            <a href={card.demo}></a>
+                            <a
+                              href={card.demo}
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <RxExternalLink className="md:text-3xl text-2xl cursor-pointer hover:text-primary" />
+                            </a>
                           </div>
                           <div className="mx-2">
-                            <FaGithub className="md:text-3xl text-2xl cursor-pointer hover:text-primary" />
-                            <a href={card.github}></a>
+                            <a
+                              href={card.github}
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <FaGithub className="md:text-3xl text-2xl cursor-pointer hover:text-primary" />
+                            </a>
                           </div>
                         </div>
                       </div>
