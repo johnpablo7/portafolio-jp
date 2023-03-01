@@ -4,7 +4,7 @@ export const cards = [
     img: "/images/yard-sale.png",
     demo: "https://yard-sale.johnpablo7.com",
     github: "https://github.com/johnpablo7/yard-sale-frontend",
-    title: "Ecommers Yard Sale",
+    title: "Yard Sale",
     paragraph:
       "Again, some improvements. Moved from Gastby to Next, started to blog",
     language: "Reactjs • Vite • Tailwindcss",
@@ -21,22 +21,22 @@ export const cards = [
   },
   {
     id: 3,
-    img: "/images/portafolio-jp.png",
-    demo: "https://github.com/johnpablo7",
-    github: "https://github.com/johnpablo7",
-    title: "Tailwind Designer Portfolio",
+    img: "/images/jaegar-resto.png",
+    demo: "https://jaegar-resto.johnpablo7.com/",
+    github: "https://github.com/johnpablo7/jaegar-resto",
+    title: "Jaegar Resto",
     paragraph:
       "Again, some improvements. Moved from Gastby to Next, started to blog",
-    language: "Vite • Tailwindcss • Typescript",
+    language: "Reactjs • Vite • Typescript • Tailwindcss",
   },
   {
     id: 4,
-    img: "/images/portafolio-jp.png",
-    demo: "https://github.com/johnpablo7",
-    github: "https://github.com/johnpablo7",
-    title: "Tailwind Designer Portfolio",
+    img: "/images/games-mode.png",
+    demo: "https://games-mode.johnpablo7.com/",
+    github: "https://github.com/johnpablo7/games-mode",
+    title: "Games Mode",
     paragraph:
       "Again, some improvements. Moved from Gastby to Next, started to blog",
-    language: "Vite • Tailwindcss • Typescript",
+    language: "Reactjs • Vite • Typescript • Tailwindcss",
   },
 ];
