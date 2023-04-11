@@ -11,7 +11,7 @@ export const views = [
   },
   {
     id: 3,
-    link: "VER CV",
+    link: "CV",
     path: "/curriculum",
   },
   {
