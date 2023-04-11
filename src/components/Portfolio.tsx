@@ -58,9 +58,7 @@ export const Portfolio = () => {
                       <p className="text-gray-500 max-w-none dark:text-gray-400 mb-3">
                         {card.paragraph}
                       </p>
-                      <p className="text-gray-400 text-sm font-extralight">
-                        {card.language}
-                      </p>
+                      <p className="text-gray-400 text-sm">{card.language}</p>
                     </div>
                   </div>
                 </div>
