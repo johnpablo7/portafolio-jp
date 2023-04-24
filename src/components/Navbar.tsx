@@ -8,7 +8,7 @@ export const Navbar = () => {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <header className="sticky top-0 inset-x-0 flex items-center justify-center md:justify-around p-4 md:px-64 w-full bg-stone-200 border-b border-gray-200 drop-shadow-md z-20 dark:bg-gray-900 dark:text-white">
+    <header className="sticky top-0 inset-x-0 flex items-center justify-center md:justify-around p-4 md:px-64 md:py-0 w-full bg-stone-200 border-b border-gray-200 drop-shadow-md z-20 dark:bg-gray-900 dark:text-white">
       <div className="md:flex items-center justify-center hidden">
         <NavLink to="/">
           <svg
