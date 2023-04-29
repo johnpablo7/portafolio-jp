@@ -23,7 +23,7 @@ export const Portfolio = () => {
                     <img
                       src={card.img}
                       alt="image"
-                      className="aspect-[4/3] object-center object-cover w-full md:w-full"
+                      className="aspect-[3/2] object-cover w-full md:w-full object-top"
                     />
 
                     <div className="md:p-4 p-4 dark:bg-gray-800 bg-stone-100">
